@@ -45,9 +45,9 @@ class Uploader:
 
             properties = dict(
                 title = self.title if self.title else os.path.basename(self.file),
-                description = 'Uploaded to youtube with https://t.me/youtubeitbot',
+                description = 'Uploaded to youtube with https://t.me/YTube_XBot',
                 category = 27,
-                privacyStatus = 'private'
+                privacyStatus = 'Public'
             )
 
             youtube = Youtube(google)
@@ -58,7 +58,7 @@ class Uploader:
             r = await youtube.upload_video(video = self.file, properties = properties)
 
             self.status = True
-            self.message = f"https://youtu.be/{r['id']}"
+            self.message = f"Yuklandi. https://youtu.be/{r['id']}"
         except Exception as e:
             traceback.print_exc()
             self.status = False
