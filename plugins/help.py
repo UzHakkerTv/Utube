@@ -55,7 +55,7 @@ def map(pos):
 
         button = [
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")],
-            [InlineKeyboardButton(text = 'Authentication URL', url = url)]
+            [InlineKeyboardButton(text = 'Bu Yerga bosing', url = url)]
 
         ]
     else:
