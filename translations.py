@@ -1,33 +1,33 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you."
+    START_MSG = "🙋Salom {}.\n\nMen Youtube-ning yuklovchisiman. ☺️Siz menga avtorizatsiyadan o'tgach, youtube-ga istalgan telegram-video yuklash uchun mendan foydalanishingiz mumkin.\nQanday Yuklash Haqida Malumot /help.\n\nRaxmat."
 
     HELP_MSG = [
         ".",
-        "Hi there.\n\nFirst things first. You should be aware that youtube processes each and every video uploaded, and its AI is amazing that it flags the video for copyrights if it finds copywrited content as soon as its uploaded, and you will not be able to publish the video.\n\nRead through all the pages to know how I work.",
+        "Salom.\n\nAvvalo birinchi narsa. Siz shuni bilishingiz kerakki, youtube har bir yuklangan har bir videoni qayta ishlaydi va uning AI, agar u boshqa kanaldan ko'chirib olingan kontent yuklanganidan xabar topsa va videoni nashr eta olmasangiz, u mualliflik huquqi uchun videoni yopiladi. Agarda 3 marta ogohlantirish olsangiz Kanalingiz yopiladi.\n\nQanday ishlashimni bilish uchun barcha sahifalarni o'qing.",
 
-        "**Lets learn how I work.**\n\n**Step 1:** __You authorise me to upload to your youtube channel.More about this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply __/upload __to the forwarded video file.You can also specify some title in the upload command, but its optional though.Title will follow the __`/upload`.__If no title is given, filename will be used as title.__\n\n**Step 4:** __I remotely download the file and uploads to your Youtube channel.__\n\n**Step 5:** __I send you the Youtube link after upload.__",
+        "**Keling, qanday ishlashimni bilib olaylik.**\n\n**1-Qadam:** __Sizga youtube kanalingizga yuklashga ijozat berasiz. Bu haqida keyingi sahifalarda batafsilroq.__\n\n**2-qadam:** __Siz har qanday Telegram videosini menga yuborasiz.__\n\n**3-qadam:** __📍Yuborilgan vedioga Reply qilib /upload so'zini yozasiz.__\n\n**4-qadam:** __Faylni masofadan turib va Youtube kanalingizga yuklab berdik__\n\n**5-qadam:** __Kanalingizga yuklangan vedio manzilini yuboraman__",
 
-        "**Create your youtube channel**\n\nThere is no point in using me if you dont have a Youtube Channel.So go through the given steps to create one.\n\n**Step 1:** __Sign in to YouTube on a computer or using the mobile.__\n\n**Step 2:** __Try any action that requires a channel, such as uploading a video, posting a comment, or creating a playlist.__\n\n**Step 3:** __If you don't yet have a channel, you'll see a prompt to create a channel.__\n\n**Step 4:** __Check the details and confirm to create your new channel.__",
+        "**Youtube Kanal Yarating**\n\nAgar Youtube kanaliga ega bo'lmasangiz, meni ishlatishda hech qanday ma'no yo'q. Shunday qilib, uni yaratish uchun quyida keltirilgan amallarni bajaring.\n\n**1-qadam:** __Kompyuterga yoki mobil qurilmadan YouTube-ga kiring.__\n\n**2-qadam:** __Videoni yuklash, sharh yuborish yoki pleylist yaratish kabi kanallarni talab qiladigan barcha amallarni bajaring.__\n\n**3-qadam:** __Agar sizda hali kanal yo'q bo'lsa, siz kanal yaratish haqida ko'rsatma olasiz.__\n\n**4-qadam:** __Tafsilotlarni tekshiring va yangi kanalingizni yaratish uchun tasdiqlang.__",
 
-        "**Verify your YouTube account**\n\nYoutube take spam and abuse very seriously. So you are asked to verify your Youtube account. Once you've verified your account, you will be able to upload videos longer than 15 minutes. If you haven't verified your account every video uploaded which are longer than 15 minutes will be removed.\n[Verify your Youtube account here.](http://www.youtube.com/verify)",
+        "**YouTube hisobingizni tasdiqlang**\n\nYoutube spam va suiiste'molni juda jiddiy qabul qiladi. Shuning uchun sizdan Youtube hisobingizni tasdiqlash so'raladi. Hisobingizni tasdiqlaganingizdan so'ng, siz 15 daqiqadan ko'proq vaqt davomida video yuklay olasiz. Agar siz hisobingizni tasdiqlamagan bo'lsangiz, 15 daqiqadan ko'proq vaqt yuklangan har bir video o'chiriladi.\n[Youtube hisobingizni bu erda tasdiqlang.](http://www.youtube.com/verify)",
 
-        "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and send it.\n\n**Fear not!**\nI'm not any hacker or someone who wants to creep into people's privacy. I respect one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here writing Telegram Bots."
+        "**Endi avtorizatsiya qilish.**\n\nSizga Youtube-dagi hisob qaydnomangizga videolarni yuklash huquqini berishingiz kerak. Berilgan havolani ochib, kodni ko'chirib olish huquqini beradigan. Bu erga qaytib kelib, /authorise kopiyalangan kodni tering va yuboring.\n\n**Qo'rqma!**\nMen hech qanday xaker yoki odamlarning hayotiga aralashishni istamaydigan odam emasman. Men shaxsiy hayotimni hurmat qilaman. Men yordam so'rab kelganlarga yordam berish uchun keldim. Agar men hacker bo'lganimda, men bu erda Telegram Bots yozish uchun o'tirmayman."
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = "Iltimos, video faylga reply qilib yoizng."
 
-    NOT_A_MEDIA_MSG = "No media file found. "+NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "Media fayl topilmadi. "+NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "Bu yaroqli media emas"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "Yuklanoqda....."
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "Siz biron bir qayd yozuviga video yuklash uchun meni tasdiqlamadingiz. autentifikatsiya qilish /help deb yozing."
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "Hech qanday kod yo'q. Iltimos, kodni ko'rsating"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "Tabriklayman, siz muvaffaqiyatli Youtube-ga yuklash uchun tasdiqladingiz.\nMuvaffaqiyatli yuklash!"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "Haqiqiylikni tekshirib bo'lmadi\nTafsilotlar:{}"
