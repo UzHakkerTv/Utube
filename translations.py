@@ -1,7 +1,7 @@
 
 class Messages:
 
-    START_MSG = "🙋Salom {}.\n\nMen Youtube-ning yuklovchisiman. ☺️Siz menga avtorizatsiyadan o'tgach, youtube-ga istalgan telegram-video yuklash uchun mendan foydalanishingiz mumkin.\nQanday Yuklash Haqida Malumot /help.\n\nRaxmat."
+    START_MSG = "🙋Salom {}.\n\nMen Youtube-ning yuklovchisiman. ☺️Siz menga avtorizatsiyadan o'tgach, youtubega istalgan telegram-video yuklash uchun mendan foydalanishingiz mumkin.\nQanday Yuklash Haqida Malumot /help.\n\nRaxmat.\n\nDaturchi @RedFoc"
 
     HELP_MSG = [
         ".",
