@@ -22,7 +22,7 @@ class Messages:
 
     NOT_A_VALID_MEDIA_MSG = "Bu yaroqli media emas"
 
-    PROCESSING = "Yuklanoqda....."
+    PROCESSING = "Yuklanmoqda....."
 
     NOT_AUTHENTICATED_MSG = "Siz biron bir qayd yozuviga video yuklash uchun meni tasdiqlamadingiz. autentifikatsiya qilish /help deb yozing."
 
