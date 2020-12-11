@@ -58,7 +58,7 @@ class Uploader:
             r = await youtube.upload_video(video = self.file, properties = properties)
 
             self.status = True
-            self.message = f"Yuklandi. https://youtu.be/{r['id']}"
+            self.message = f"Yuklandi. https://youtu. be/{r['id']}"
         except Exception as e:
             traceback.print_exc()
             self.status = False
