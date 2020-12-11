@@ -35,7 +35,7 @@ class Uploader:
             if not os.path.isfile(Config.CRED_FILE):
                 self.status = False
                 
-                self.message = "Upload failed because you did not authenticate me."
+                self.message = "Uzur Avtarizatsiyadan o'ting /help"
                 
                 return
 
@@ -45,7 +45,21 @@ class Uploader:
 
             properties = dict(
                 title = self.title if self.title else os.path.basename(self.file),
-                description = 'Uploaded to youtube with https://t.me/YTube_XBot',
+                description = "✅ Ijtimoiy Tarmoqlarim
+➥ Telegram: https://t.me/UniversalVlog
+➥ Instagram: https://www.instagram.com/OTASH_Arts
+➥ Instagram: https://www.instagram.com/UzHakkerTv
+==========================================
+👍Layk tugmasini bosishni unutmang !
+🔥Ajoyib kommentlaringizni qoldiring...
+==========================================
+▶️ Youtube kanalingizga sifatli banner, avatar, oblojka va yana turli xildagi dizaynlar kerakmi ? 
+✉️ Unda men bilan bog'laning: 
+https://t.me/OTASH_Arts
+==========================================
+
+
+GTA, GamePlay, Pubg, Stars War, Pubg lite, Pubg Mobile, FreeFire, Cod Mobile, Call of Duty, Clash of clans, Forza Horizon, Fall Guys, Marvel, Iron man, No copyright GamePlay, Jump Force, BattleField, Tekken, Mortal Combat, Counter Strike, CS GO and Others.",
                 category = 27,
                 privacyStatus = 'Private'
             )
@@ -62,6 +76,6 @@ class Uploader:
         except Exception as e:
             traceback.print_exc()
             self.status = False
-            self.message = f"Error occuered during upload.\nError details: {e}"
+            self.message = f"Yuklash Jarayonida Xatolik.\nXatolik haqida: {e}"
         return
 
