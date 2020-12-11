@@ -41,7 +41,7 @@ class Downloader:
             if(not self.callback):
                 return
             
-            await self.callback(cur, tot, self.start_time, "Downloading...", *self.args)
+            await self.callback(cur, tot, self.start_time, "Yuklamoqda...", *self.args)
 
         except:
             pass
