@@ -45,21 +45,7 @@ class Uploader:
 
             properties = dict(
                 title = self.title if self.title else os.path.basename(self.file),
-                description = "✅ Ijtimoiy Tarmoqlarim
-➥ Telegram: https://t.me/UniversalVlog
-➥ Instagram: https://www.instagram.com/OTASH_Arts
-➥ Instagram: https://www.instagram.com/UzHakkerTv
-==========================================
-👍Layk tugmasini bosishni unutmang !
-🔥Ajoyib kommentlaringizni qoldiring...
-==========================================
-▶️ Youtube kanalingizga sifatli banner, avatar, oblojka va yana turli xildagi dizaynlar kerakmi ? 
-✉️ Unda men bilan bog'laning: 
-https://t.me/OTASH_Arts
-==========================================
-
-
-GTA, GamePlay, Pubg, Stars War, Pubg lite, Pubg Mobile, FreeFire, Cod Mobile, Call of Duty, Clash of clans, Forza Horizon, Fall Guys, Marvel, Iron man, No copyright GamePlay, Jump Force, BattleField, Tekken, Mortal Combat, Counter Strike, CS GO and Others.",
+                description = "YouTube.com/OtabekChoriyev",
                 category = 27,
                 privacyStatus = 'Private'
             )
