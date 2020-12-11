@@ -35,7 +35,7 @@ class Uploader:
             if not os.path.isfile(Config.CRED_FILE):
                 self.status = False
                 
-                self.message = "Uzur Avtarizatsiyadan o'ting /help"
+                self.message = "Uzur Avtarizatsiyadan o`ting /help"
                 
                 return
 
@@ -45,7 +45,7 @@ class Uploader:
 
             properties = dict(
                 title = self.title if self.title else os.path.basename(self.file),
-                description = "YouTube.com/OtabekChoriyev",
+                description = 'YouTube.com/OtabekChoriyev',
                 category = 27,
                 privacyStatus = 'Private'
             )
